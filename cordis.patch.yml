@@ -1,0 +1,7 @@
+- insert:
+    - id: translation-tools
+      name: '@amahahanasaki/dsh-mtrans'
+      config:
+        provider: ''
+        model: ''
+        parallelism: 4

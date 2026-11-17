@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "游戏文本翻译",
+    "description": "将 MTool 风格的游戏翻译 JSON 翻译为中文,支持日译中和英译中"
+  }
+}

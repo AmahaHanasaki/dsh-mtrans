@@ -1,0 +1,21 @@
+{
+  "name": "@amahahanasaki/dsh-mtrans",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "DeepSeek Harness plugin: translate MTool-style ManualTransFile.json (Japanese/English to Chinese) with a chunked agent workflow and one-shot LLM translation",
+  "license": "MIT",
+  "author": "AmahaHanasaki",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "mtool", "translation", "visual-novel"],
+  "repository": { "type": "git", "url": "git+https://github.com/AmahaHanasaki/dsh-mtrans.git" },
+  "homepage": "https://github.com/AmahaHanasaki/dsh-mtrans#readme",
+  "bugs": { "url": "https://github.com/AmahaHanasaki/dsh-mtrans/issues" },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md", "LICENSE"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

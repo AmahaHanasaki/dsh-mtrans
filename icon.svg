@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="#14342b"/>
+  <path d="M12 40 L12 20 L24 20 L24 40 Z" fill="#4f8f7a"/>
+  <path d="M28 40 L28 24 L40 24 L40 40 Z" fill="#6db39b"/>
+  <path d="M44 40 L44 16 L52 16 L52 40 Z" fill="#e8a33d"/>
+  <text x="32" y="53" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e8e8f0" text-anchor="middle">译</text>
+</svg>
